@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  text-align: center;
+}
+table {
+  width: 70%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+thead {
+  background: #164069;
+  color: white;
+}
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background: #e9e9e9;
+}
+
+tbody tr:hover {
+  background: #d4e6ff;
+}
