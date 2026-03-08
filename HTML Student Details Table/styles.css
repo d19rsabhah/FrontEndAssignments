@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+table {
+  background-color: yellow;
+  border: 1px solid black;
+  border-collapse: separate;
+  margin: auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+caption {
+  font-size: 20px;
+  font-weight: bold;
+}
