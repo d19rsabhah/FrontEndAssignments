@@ -1,0 +1,41 @@
+.main-table {
+  width: 580px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: separate;
+  table-layout: fixed;
+}
+
+.main-table td {
+  width: 50%;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+.nested {
+  width: 100%;
+  border-collapse: separate;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+
+.nested th,
+.nested td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.html-cell {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+a {
+  color: purple;
+}
